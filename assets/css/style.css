@@ -16,32 +16,37 @@ html {
     display: block;
 }*/
 
-nav {
+/*nav {
 	padding: 1px;
-}
+}*/
 
 h1, p {
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: white;
+
 
 }
 
 h1 {
 	letter-spacing: 5px;
 	font-size: 15em;
+	border: 10px solid white;
 
 }
 
 #jumbo-div {
+	background-color: black;
 	padding-top: 15%;
-	height: 100vh;
+	height: 90vh;
 	border-radius: 0; /*to remove jumbotron's round corners*/
-	background-image: url(https://media.giphy.com/media/l2SpNZcHNUdJd89vG/giphy.gif);
-	background-size: cover;
 }
 
 #jumbotron-cover {
 	
+}
+
+nav {
+	color: white;
 }
 
 
