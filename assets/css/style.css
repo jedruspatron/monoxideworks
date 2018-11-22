@@ -8,18 +8,8 @@
 
 html {
     scroll-behavior: smooth;
-    height: 100%;
 
 }
-
-body {
-/*	perspective: 1px;
-	transform-style: preserve-3d;
-	height: 100%;
-	overflow-y: scroll;
-	overflow-x: hidden;*/
-}
-
 
 /*.clear:after {
     content: " ";
@@ -27,41 +17,43 @@ body {
     display: block;
 }*/
 
-/*nav {
-	padding: 1px;
+/*#container {
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	perspective: 2px;
 }*/
+
 
 #jumbotron-section h1, p {
 	color: white;
 	letter-spacing: 5px;
-
 }
 
 #jumbotron-section h1 {
 	letter-spacing: 5px;
 	font-size: 15em;
-	border: 10px solid white;
+	border: 10px solid #076B82;
+	color: white;
+	z-index: 100;
+	font-size: 12em;
 
 }
 
 #jumbotron-section {
-	/*min-height: 100vh;
-	padding: 30vw 0 5vw;
-	position: relative;
-	transform-style: inherit;
-	width: 100vw;*/
-
 	margin-left: -20px;
 	margin-right:  -13px;
 }
 
+
 #jumbo-div {
 	/*background-color: black;*/
 	/*padding-top: 15%;*/
-	background: url(https://media.giphy.com/media/12CZbn6M6cgDkc/giphy.gif);
+	/*background: url(https://media.giphy.com/media/12CZbn6M6cgDkc/giphy.gif)*/
+	background: url(https://media.giphy.com/media/6eWbWHX4m3xD2/giphy.gif);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
-	height: 92vh;
+	height: 90vh;
 	border-radius: 0; /*to remove jumbotron's round corners*/
 }
 
@@ -71,70 +63,128 @@ body {
 
 #navbar {
 	color: white;
-}
 
-nav img {
-	height: 50px;
-	width: 100px;
-	padding-bottom: 10px;
 }
-/*#jumbotron-section {
-	position: relative;
-}*/
-/*video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-     z-index: -100;
-}*/
-
-.overlay {
-/*  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;*/
-}
-
 
 #jumbotron-section {
-	/*background-color: red;*/
-/*	background: none;
-    color: none;*/
+    color: none;
     font-weight: 600;
     margin: 2rem 3rem 0;
-    /*mix-blend-mode: overlay;*/
     z-index: 100;
     padding: 5px 15px;
     text-align: center;
-    /*background-color: black;*/
-	z-index: -10;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
 }
 
-
-#jumbo-div h1 {
-/*	background: url(../images/video1.mp4);*/
-	color: white;
-	z-index: 100;
-	font-size: 12em;
-}
-
-.jumbotron-cover {
-
-}
 
 #navbar {
-	z-index: 200;
+	padding-bottom: 0;
+}
+
+#container {
+	padding: 0;
 }
 
 
+#navbar-overlay a {
+	/*background: url(https://media.giphy.com/media/xTiTnF8aH3peHi1to4/giphy.gif);*/
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-size: 25px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	letter-spacing: .2em;
+	background-color: aqua;
+	font-size: 
+}
 
+#navbar-overlay img {
+}
 
+#navbar-nav {
+	background: aqua;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-size: 20px;
+}
+
+#home-tourintro {
+	background-color: #076B82;
+	height: 100%;
+	padding-top: 30px;
+}
+
+#home-tourintro h1, p {
+	color: black;
+	text-align: justify;
+	padding: 0px 20px;
+}
+
+#navbar-nav a {
+	margin-left: 50px;
+	word-spacing: 5px;
+}
+
+/*#jumbotron-section img {*/
+/*	width: 35%;
+	height: 55%;*/
+/*	position: fixed;
+	bottom: 0.5;
+	margin: 0 auto;
+	z-index: 100;
+	opacity: 1;
+
+}*/
+
+/*#jumbotron-section {
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}*/
+
+#home-meetpicture {
+	height: 100vh;
+	background-image: url(../images/crossroads.jpg);
+	background-size: cover;
+}
+
+#home-whowhy, #home-whatwhere, #home-projectclient, #home-community {
+	height: 93vh;
+	background-color: #076B82;
+}
+
+#home-whowhypicture {
+	height: 100vh;
+	background-image: url(../images/aboutus.jpeg);
+	background-size: cover;
+}
+
+#home-whatwherepicture {
+	height: 100vh;
+	background-image: url(../images/open.jpeg);
+	background-size: cover;
+}
+
+#home-projectclientpicture {
+	height: 100vh;
+	background-image: url(../images/marketingagency.jpg);
+	background-size: cover;
+}
+
+#home-communitypicture {
+	height: 100vh;
+	background-image: url(../images/community.jpeg);
+	background-size: cover;
+}
+
+#home-joinpicture {
+	height: 100vh;
+	background-image: url(../images/join.jpeg);
+	background-size: cover;
+}
 
 
 
