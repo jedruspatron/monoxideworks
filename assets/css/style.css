@@ -11,6 +11,11 @@ html {
 
 }
 
+/*html, body {
+	height: 100%;
+
+}*/
+
 /*.clear:after {
     content: " ";
     clear: both;
@@ -23,6 +28,9 @@ html {
 	overflow-y: auto;
 	perspective: 2px;
 }*/
+
+
+/*HOMEPAGE*/
 
 
 #jumbotron-section h1, p {
@@ -55,6 +63,7 @@ html {
 	-webkit-background-clip: text;
 	height: 90vh;
 	border-radius: 0; /*to remove jumbotron's round corners*/
+	padding: 0;
 }
 
 #jumbotron-cover {
@@ -98,11 +107,8 @@ html {
 	margin-bottom: 0;
 	letter-spacing: .2em;
 	background-color: aqua;
-	font-size: 
 }
 
-#navbar-overlay img {
-}
 
 #navbar-nav {
 	background: aqua;
@@ -151,7 +157,7 @@ html {
 	background-size: cover;
 }
 
-#home-whowhy, #home-whatwhere, #home-projectclient, #home-community {
+#home-whowhy, #home-whatwhere, #home-projectclient, #home-community, #who {
 	height: 93vh;
 	background-color: #076B82;
 }
@@ -185,6 +191,86 @@ html {
 	background-image: url(../images/join.jpeg);
 	background-size: cover;
 }
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6 {
+  position:relative;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+/*End of HOMEPAGE*/
+
+
+/*WHO PAGE*/
+
+#container-who {
+}
+
+#testrow {
+	margin:0;
+}
+
+#who {
+	height: 100vh;
+}
+
+#who h1 {
+	text-align: center;
+}
+
+#who-carousel .carousel-indicators {
+	height: 100vh;
+}
+
+#who-carousel img {
+	height: 95vh;
+	width: 100vw;
+}
+
+
+#missionpicture img {
+	height: 420px;
+	border: 0;
+}
+
+#missioncolone {
+	padding: 0;
+}
+
+#colmissiontwo{
+	padding: 0;
+}
+
+#mission-vision {
+	max-width: 100%;
+}
+
+#meettheteam, #adhead, #crehead, #other-team {
+	background-color: #076B82;
+}
+
+#adheadchead p {
+	margin-bottom: 0;
+}
+
+#meettheteam p {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*::-webkit-scrollbar {
+	display: none;
+}*/
+
 
 
 
